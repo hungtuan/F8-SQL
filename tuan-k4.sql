@@ -1,3 +1,6 @@
+-- Tạo database có tên: database_01_tenhocvien
+CREATE DATABASE database_01_tuan;
+
 -- Tạo bảng courses 
 
 CREATE TABLE IF NOT EXISTS courses
@@ -15,7 +18,7 @@ CREATE TABLE IF NOT EXISTS courses
     CONSTRAINT courses_price_unique UNIQUE (price)
 );
 
--- Thêm trường description kiểu text, nulll
+-- Thêm trường description kiểu text, null
 
 ALTER TABLE IF EXISTS courses
 ADD description text DEFAULT NULL;
