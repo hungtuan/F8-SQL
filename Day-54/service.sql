@@ -75,10 +75,10 @@ VALUES
 -- Thêm dữ liệu vào bảng DAT_PHONG
 INSERT INTO DAT_PHONG (MaDatPhong, MaPhong, MaKH, NgayDat, GioBatDau, GioKetThuc, TienDatCoc, GhiChu, TrangThaiDat)
 VALUES 
-    ('DP0001', 'P0001', 'KH0002', '2018-03-26', '11:00', '13:30', '100000', '', 'Dadat'),
+    ('DP0001', 'P0001', 'KH0002', '2018-03-26', '11:00', '13:30', '100000', '', 'Da dat'),
     ('DP0002', 'P0001', 'KH0003', '2018-03-27', '17:15', '19:15', '50000', '', 'Da huy'),
-    ('DP0003', 'P0002', 'KH0002', '2018-03-26', '20:30', '22:15', '100000', '', 'Dadat'),
-    ('DP0004', 'P0003', 'KH0001', '2018-04-01', '19:30', '21:15', '200000', '', 'Dadat');
+    ('DP0003', 'P0002', 'KH0002', '2018-03-26', '20:30', '22:15', '100000', '', 'Da dat'),
+    ('DP0004', 'P0003', 'KH0001', '2018-04-01', '19:30', '21:15', '200000', '', 'Da dat');
 
 -- Thêm dữ liệu vào bảng CHI_TIET_SU_DUNG_DICH_VU
 INSERT INTO CHI_TIET_SU_DUNG_DICH_VU (MaDatPhong, MaDV, SoLuong)
